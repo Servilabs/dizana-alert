@@ -58,13 +58,13 @@ public class DizanaAlertPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-
+		checkQuiver();
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-
+		overlayManager.remove(overlay);
 	}
 
 

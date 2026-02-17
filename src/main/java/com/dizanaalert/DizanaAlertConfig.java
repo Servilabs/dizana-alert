@@ -15,7 +15,7 @@ public interface DizanaAlertConfig extends Config
 	@Alpha
 	@ConfigItem(
 			keyName = "Color",
-			name = "Notificatin Color",
+			name = "Notification Color",
 			description = "The background color for the notification.",
 			position = 6
 	)
